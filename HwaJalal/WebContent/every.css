@@ -1,0 +1,20 @@
+*{
+	font-family: 'Song Myung', serif;
+	color: #222222;
+	text-align: center;
+	align: center;
+}
+
+a:link {
+	
+	color:#999999;
+}
+a:visited {
+	
+	color:#fec3ee;
+}
+
+ 
+.logo > img {
+	width:70%;
+}

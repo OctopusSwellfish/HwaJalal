@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>:::로그인:::</title>
+	<link rel="stylesheet" href="resources/every.css" type="text/css"></link>
+	<link href="https://fonts.googleapis.com/css?family=Song+Myung&amp;subset=korean" rel="stylesheet">
+	
+</head>
+<body>
+
+	<div class="logo"><img src="resources/logosmall.png"></div>
+
+	<form name="form1" method="post" action="/eunju_free/MemberServlet">
+	<input type="hidden" name="key" value="login">
+	<p>아이디 : <input type="text" name="memberloginID" size="25" autofocus required></p>
+		<p>비밀번호 : <input type="password" name="memberPassword" size="25" required></p>
+	
+		<input type="submit" value="로그인">
+	</form>
+</body>
+</html>
